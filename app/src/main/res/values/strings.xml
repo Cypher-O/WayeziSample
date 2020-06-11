@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">Wayezi Sample</string>
+	<string name="app_name">Wayezi Sample</string>
+	<string name="hello_welcome_back">Hello, Welcome Back</string>
+	<string name="sign_in_to_continue">Sign In to Continue</string>
+	<string name="username_hint">username</string>
+	<string name="password_hint">password</string>
+	<string name="forget_password">FORGET PASSWORD?</string>
+	<string name="log_in">SIGN IN</string>
+	<string name="sign_up">SIGN UP</string>
+	<string name="wayezi">Wayezi</string>
+	<string name="create_account">Create Account</string>
+	<string name="full_name">Full Name</string>
+	<string name="first_name">First Name</string>
+	<string name="last_name">Last Name</string>
+	<string name="password">Password</string>
+	<string name="phone_number">Phone Number</string>
+	<string name="email">Email</string>
+	<string name="next">Next</string>
+	<string name="home_address">Home Address</string>
+	<string name="school_address">School Address</string>
+	<string name="school_name">School Name</string>
+	<string name="don_t_have_an_account_sign_up">DON\'T HAVE AN ACCOUNT? SIGN UP</string>
+	<string name="already_have_an_account_sign_in">already have an account? Sign in</string>
+	<string name="choose_gender">Choose Gender</string>
+	<string name="male">Male</string>
+	<string name="female">Female</string>
+	<string name="other">Other</string>
 </resources>
