@@ -4,7 +4,7 @@
 	<string name="sign_in_to_continue">Sign In to Continue</string>
 	<string name="username_hint">username</string>
 	<string name="password_hint">password</string>
-	<string name="forget_password">FORGET PASSWORD?</string>
+	<string name="forgot_password">FORGOT PASSWORD?</string>
 	<string name="log_in">SIGN IN</string>
 	<string name="sign_up">SIGN UP</string>
 	<string name="wayezi">Wayezi</string>
@@ -25,4 +25,36 @@
 	<string name="male">Male</string>
 	<string name="female">Female</string>
 	<string name="other">Other</string>
+	<string name="select_a_school">Select a school</string>
+	<string name="home">Home</string>
+	<string name="profile">Profile</string>
+	<string name="events">Events</string>
+	<string name="cctv">CCTV</string>
+	<string name="school_bus">School Bus</string>
+	<string name="chats">Chats</string>
+	<string name="sign_out">Sign Out</string>
+	<string name="olumide_awodeji">Olumide Awodeji</string>
+	<string name="open">Open</string>
+	<string name="close">close</string>
+	<string name="forgot_pass">Forgot Password?</string>
+	<string name="recovery_txt">Enter the emil address associated\n with your account</string>
+	<string name="reset_password">Reset Password</string>
+	<string name="verify_your_email">Verify your email</string>
+	<string name="recovery_email">Please enter the 4 digit code sent to
+		cypher@gmail.com
+	</string>
+	<string name="confirm">Confirm</string>
+
+	<string-array name="schools">
+		<item>The Shri Ram</item>
+		<item>The Sanskaar Valley</item>
+		<item>Maharaja Sawai Bhawani Singh</item>
+		<item>Little Angels High</item>
+		<item>Hyderabad Public School</item>
+		<item>GEAR Innovative</item>
+		<item>Cygnus World</item>
+		<item>Yadavindra Public School</item>
+		<item>Rajkumar College</item>
+		<item>The Future Foundation</item>
+	</string-array>
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+	<group
+			android:checkableBehavior="single">
+		<item
+				android:id="@+id/nav_home"
+				android:title="@string/home"
+				android:icon="@drawable/ic_home"/>
+
+		<item
+				android:id="@+id/profile"
+				android:title="@string/profile"
+				android:icon="@drawable/ic_person"/>
+
+		<item
+				android:id="@+id/chat"
+				android:title="@string/chats"
+				android:icon="@drawable/ic_chat"/>
+	</group>
+
+	<item android:title="Others">
+		<menu>
+			<group
+					android:checkableBehavior="single">
+				<item
+						android:id="@+id/events"
+						android:title="@string/events"
+						android:icon="@drawable/ic_event"/>
+
+				<item
+						android:id="@+id/cctv"
+						android:title="@string/cctv"
+						android:icon="@drawable/ic_camera_enhance"/>
+
+				<item
+						android:id="@+id/sch_bus"
+						android:title="@string/school_bus"
+						android:icon="@drawable/ic_directions_bus"/>
+				<item
+						android:id="@+id/sign_out"
+						android:title="@string/sign_out"
+						android:icon="@drawable/ic_settings_power"/>
+			</group>
+		</menu>
+	</item>
+</menu>

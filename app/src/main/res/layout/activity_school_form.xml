@@ -5,10 +5,12 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		tools:context=".SchoolForm"
-		android:padding="30dp"
-		android:scrollbars="none">
+		android:padding="25dp"
+		android:scrollbars="none"
+		android:id="@+id/scroll_view">
 
 	<LinearLayout
+			android:id="@+id/layout_animation"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:orientation="vertical">
@@ -17,7 +19,6 @@
 				android:id="@+id/backBtnPrevForm"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:padding="5dp"
 				android:src="@drawable/ic_arrow_back_black_24dp"/>
 
 		<LinearLayout
@@ -100,18 +101,13 @@
 			<!--						android:layout_height="wrap_content"/>-->
 			<!--			</com.google.android.material.textfield.TextInputLayout>-->
 
-			<com.google.android.material.textfield.TextInputLayout
-
+			<AutoCompleteTextView
+					android:id="@+id/select_sch"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
-					android:hint="@string/school_name">
-
-				<AutoCompleteTextView
-						android:id="@+id/filled_exposed_dropdown"
-						android:layout_width="match_parent"
-						android:layout_height="wrap_content"/>
-
-			</com.google.android.material.textfield.TextInputLayout>
+					android:hint="@string/select_a_school"
+					android:completionThreshold="1"
+					android:completionHint="@string/select_a_school"/>
 
 			<com.google.android.material.textfield.TextInputLayout
 					android:id="@+id/schAddress"
